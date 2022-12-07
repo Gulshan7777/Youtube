@@ -43,7 +43,7 @@ const Header = () => {
 
 
     return (
-        <div className='sticky top-0 z-10 flex flex-row items-center justify-between h-14 px-4 md:px-5 bg-white dark:bg-[#101010]'>
+        <div className='sticky top-0 z-10 flex flex-row items-center justify-between h-14 px-4 md:px-5 bg-[#101010]'>
             {loading && <Loader />}
             <div className='flex h-5 items-center'>
                 {pagename !== "video" && (
